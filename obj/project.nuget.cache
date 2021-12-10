@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "A5CjxaxxcthzvAIIkuR3s48Zb8O/pBESMrJqnwVWapVnYnRi3PkTR0X0ZYSk0JMupbDoa8uRj4wXpF3+4n9HFw==",
+  "dgSpecHash": "dXxaN7lBiXxypTTyL7ntIQT56CQIGUBl+l9+vr9Y5osGLgcvqA43pa206gFbVh0VPr26UzSOWbkdP0h2EI1cNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\Estudios\\ASIX2\\M11\\Scrpts\\Pings_M11_UF2\\Pings_M11_UF2\\Pings_M11_UF2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.11\\microsoft.netcore.app.runtime.win-x64.5.0.11.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.11\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.11.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.11\\microsoft.aspnetcore.app.runtime.win-x64.5.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

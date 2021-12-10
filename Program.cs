@@ -15,10 +15,16 @@ namespace Pings_M11_UF2
         }
         private static Boolean Contains_something(String Line){
             char[] words=Line.ToCharArray();
+            for(int i=0;i<words.Length;i++){
+                if(words[i]!=' '){
+                    return true;
+                }
+            }
+            return false;
         }
         static void Main(string[] args)
         {
-            args=new String[]{"File", "Jping.txt"};
+            //args=new String[]{"IP", "Somewhere"};
             try{
                 if(args[0].ToUpper()=="FILE"){
                     ViaFile(args[1]);
@@ -27,7 +33,7 @@ namespace Pings_M11_UF2
                 }else{
                     Console.WriteLine("The first argument is not valid");
            }
-            }catch(IndexOutOfRangeException e){
+            }catch(IndexOutOfRangeException){
                 Console.WriteLine("ERROR: No hay suficientes argumentos");
                 Console.WriteLine("El programa requiere del tipo de metodo y un segundo argumento sea IP o direccion de archivo conteniendo IP");
                 Console.WriteLine("Dependiendo del tipo de metodo que escoja, las opciones son: File | IP");
@@ -40,21 +46,26 @@ namespace Pings_M11_UF2
             String Line;
             while (F_Reader.Peek() >= 0){
                 Line=F_Reader.ReadLine();
-                try{
-                    Console.WriteLine(Line+": "+P_Reply(Line));
-                }catch(Exception e){
-                    //Cuando el programa intenta hacer un ping donde hay una linia en blanco o una resolucion de nombres que no funcionase, provoca una excepcion
-                    //La solucion en este caso fue hacer un try catch para que no parase el proceso
-                    if(Line.Length>0){
-                        //Y para que no leyese linias en blanco pues simplemente reviso que haya algo en el string aunque tambien cuente espacios en blanco
-                        Console.WriteLine(Line+": HostUnreachable");
+                if(Contains_something(Line)){
+                    try{
+                        Console.WriteLine(Line+": "+P_Reply(Line));
+                    }catch(Exception){
+                        //Cuando el programa intenta hacer una resolucion de nombres y falla provoca una excepcion haciendo que el programe para su proceso.
+                        //Para solucionarlo cre un try catch que al detectar caulquier excepcion simplemente dice que hubo un error en la resolucion
+                        Console.WriteLine(Line+": NameNotRecognized");
+                        
                     }
-                    
                 }
+                
             }
         }
         static void ViaIP(String IP){
-            Console.WriteLine(IP+": "+P_Reply(IP));
+            try{
+                Console.WriteLine(IP+": "+P_Reply(IP));
+            }catch(Exception){
+                Console.WriteLine(IP+": NameNotRecognized");
+            }
+            
         }
     }
 }
