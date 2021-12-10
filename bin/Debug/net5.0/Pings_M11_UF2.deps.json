@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Pings_M11_UF2/1.0.0": {
+        "runtime": {
+          "Pings_M11_UF2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pings_M11_UF2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

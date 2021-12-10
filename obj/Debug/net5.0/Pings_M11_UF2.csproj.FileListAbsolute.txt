@@ -1,0 +1,16 @@
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\Pings_M11_UF2.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\Pings_M11_UF2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\Pings_M11_UF2.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\Pings_M11_UF2.AssemblyInfo.cs
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\Pings_M11_UF2.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\bin\Debug\net5.0\Pings_M11_UF2.exe
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\bin\Debug\net5.0\Pings_M11_UF2.deps.json
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\bin\Debug\net5.0\Pings_M11_UF2.runtimeconfig.json
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\bin\Debug\net5.0\Pings_M11_UF2.runtimeconfig.dev.json
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\bin\Debug\net5.0\Pings_M11_UF2.dll
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\bin\Debug\net5.0\ref\Pings_M11_UF2.dll
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\bin\Debug\net5.0\Pings_M11_UF2.pdb
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\Pings_M11_UF2.dll
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\ref\Pings_M11_UF2.dll
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\Pings_M11_UF2.pdb
+C:\Users\USUARIO\Estudios\ASIX2\M11\Scrpts\Pings_M11_UF2\Pings_M11_UF2\obj\Debug\net5.0\Pings_M11_UF2.genruntimeconfig.cache
