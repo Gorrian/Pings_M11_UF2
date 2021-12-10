@@ -31,7 +31,7 @@ namespace Pings_M11_UF2
                 }else if(args[0].ToUpper()=="IP"){
                     ViaIP(args[1]);
                 }else{
-                    Console.WriteLine("The first argument is not valid");
+                    Console.WriteLine("El primer argumento no es valido");
            }
             }catch(IndexOutOfRangeException){
                 Console.WriteLine("ERROR: No hay suficientes argumentos");
