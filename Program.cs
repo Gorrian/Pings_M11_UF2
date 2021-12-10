@@ -22,6 +22,16 @@ namespace Pings_M11_UF2
             }
             return false;
         }
+        private static String Remove_spaces(String Name){
+            Char words=Name.ToCharArray();
+            String Solved="";
+            for(int i=0;i<words.Length;i++){
+                if(words!=' '){
+                    Solved+=words[i];
+                }
+            }
+            return Solved;
+        }
         static void Main(string[] args)
         {
             //args=new String[]{"IP", "Somewhere"};
@@ -48,7 +58,7 @@ namespace Pings_M11_UF2
                 Line=F_Reader.ReadLine();
                 if(Contains_something(Line)){
                     try{
-                        Console.WriteLine(Line+": "+P_Reply(Line));
+                        Console.WriteLine(Remove_spaces(Line)+": "+P_Reply(Line));
                     }catch(Exception){
                         //Cuando el programa intenta hacer una resolucion de nombres y falla provoca una excepcion haciendo que el programe para su proceso.
                         //Para solucionarlo cre un try catch que al detectar caulquier excepcion simplemente dice que hubo un error en la resolucion
