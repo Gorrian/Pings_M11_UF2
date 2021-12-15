@@ -6,14 +6,14 @@ namespace Pings_M11_UF2
 {
     class Program
     {
-        private static System.Net.NetworkInformation.IPStatus P_Reply(String IP){
+        private static IPStatus P_Reply(string IP){
             Ping p = new Ping();
             PingReply Answer;
             //string s;
             Answer = p.Send(IP);
             return Answer.Status;
         }
-        private static Boolean Contains_something(String Line){
+        private static Boolean Contains_something(string Line){
             char[] words=Line.ToCharArray();
             for(int i=0;i<words.Length;i++){
                 if(words[i]!=' '){
@@ -22,7 +22,7 @@ namespace Pings_M11_UF2
             }
             return false;
         }
-        private static String Remove_spaces(String Name){
+        private static string Remove_spaces(string Name){
             Char words=Name.ToCharArray();
             String Solved="";
             for(int i=0;i<words.Length;i++){
@@ -51,9 +51,9 @@ namespace Pings_M11_UF2
            
             
         }
-        static void ViaFile(String file){
+        static void ViaFile(string file){
             StreamReader F_Reader= new StreamReader(file);
-            String Line;
+            string Line;
             while (F_Reader.Peek() >= 0){
                 Line=F_Reader.ReadLine();
                 if(Contains_something(Line)){
@@ -69,7 +69,7 @@ namespace Pings_M11_UF2
                 
             }
         }
-        static void ViaIP(String IP){
+        static void ViaIP(string IP){
             try{
                 Console.WriteLine(IP+": "+P_Reply(IP));
             }catch(Exception){
